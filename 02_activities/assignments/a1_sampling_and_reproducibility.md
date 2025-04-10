@@ -10,10 +10,11 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Gunha Kim
 
-```
-Please write your explanation here...
+As noted in the blog post, The function simulate_event "creates a DataFrame representing individuals attending weddings and brunches," where samples are defined as 10% being randomly infected (attack_rate), tracing is successful by 20% and if two or more people from the event are traced, others from the event get traced too. Out of population of 1000 people, random subset of people are infected and tracing samples are also randomly decided. The sampling is done 1000 time with its frame being the total numbers of infection and tracing.
+
+If I run the code as it is, it doesn't reproduce the same result in the original blog post. Everytime I run the script, it produces something different, because of the random variable I think. If I add np. random.seed it would reproduce the same result.
 
 ```
 
