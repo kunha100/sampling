@@ -40,25 +40,27 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `2`
 
 Describe the purpose of your survey:
-```
-write your answer here...
-```
+Purpose of my survey would be to find out the ratio of people who are indecisive of who will going to vote for the election and find out if it's critical enough to change the result of the election. Also, I'd like to learn what would influence their decision in favor of my party.
+
 
 Describe your target population, sampling frame, sampling units, and observational units:
-```
-write your answer here...
-```
+
+Target population is Canadian citizens who are eligible to vote in the upcoming election. 
+Sampling frame is would be database of registered voters.
+Sampling unit is individual voters.
+Observational unit is individual voters.
+
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
+1. How likely are you going to vote in the upcoming election? (80-100%/60-79%/40-59%/20-39%/0-19%)
+2. Have you decided on the party that you will vote for? (Yes, No) —Here abort those who replied? yes
+3. How likely you are likely to vote for [my party]? (80-100%/60-79%/40-59%/20-39%/0-19%))
+4. What do you like from my party? select all. (economic policy/policies on climate crisis/health care/views on diversity/international relations/ etc (free answers))
+5. Is there anything that hinders from voting from my party? select all (economic policy/policies on climate crisis/health care/views on diversity/international relations/ etc (free answers))
 6. write your question here... (optional)
 7. write your question here... (optional)
 8. write your question here... (optional)
@@ -70,8 +72,21 @@ Your 5-10 question survey:
 
 Identify and describe survey features:
 
-```
-write your answer here
+
+1. Sample type: Stratified Sampling employing probability sampling 
+2. Sample size: Target sample size was 20,000 and the eventual respondents was 16,149.
+3. Target population: The target population for the survey included all persons 15 years of age and older in Canada, excluding residents of the Yukon, Northwest Territories, and Nunavut as well as Full-time residents of institutions.
+4. Sampling frame: group of telephone numbers.  The final stage units are individuals within the identified households.
+5. Survey model(s): electronically as a self-completed questionnaire (rEQ) as well as via computer assisted telephone interviews (iEQ).
+6. Timeline: : 2018-09-04 to 2018-12-28
+7. Response rate: 41.9%
+8. Weights: population. Survey estimates were adjusted (weighted) to represent all persons in the target population, including those not covered by the survey frame, particularly by bootstrapping.
+9. Data processing: consistency edits, family edits and imputation. At every stage of processing, verification and dissemination, considerable effort was made to produce data that are as precise as possible in their level of detail, and to ensure that the published estimates are of good quality in keeping with Statistics Canada standards.
+10. Cleaning, imputation, etc: In the case of the GVP, donor imputation was used to fill in missing data for some item and partial non-response. Imputation was carried out in nine steps. The first step consisted of imputing personal income and family income. The next three steps involved imputing the formal volunteering variables in the master file. Steps five and six were imputing the informal volunteering variables in the master file. Finally, the last three steps involved imputing variables in the donation file and the solicitation methods in the master file.
+11. Sources of error: Sampling errors: "As the data are based on a sample of persons, they are subject to sampling error. That is, estimates based on a sample will vary from sample to sample, and typically they will be different from the results that would have been obtained from a complete census. More precise estimates of the sampling variability of estimates can be produced with the bootstrap method using bootstrap weights that have been created for this survey." Non sampling errors: "Interviewers may misunderstand instructions, respondents may make errors in answering questions, the answers may be incorrectly entered into the EQ system, and errors may be introduced in the processing and tabulation of the data." 
+12. Limitations, known biases, etc: The main method used to reduce nonresponse bias involved a series of adjustments to the survey weights to account for nonresponse as much as possible
+13. Link to documentation and any additional sources used
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
